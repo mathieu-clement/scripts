@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Suppose you have a website running with Flask / Wordpress / CherryPi on port 1234
-# and that you want to make available at mysite.mydomain.tld.
+# and that you want to make available at https://mysite.mydomain.tld/
 # You can just run this script like so: ./generate-transparent-ssl-proxy.sh mysite.mydomain.tld 1234
 # and it will automatically create the required configuration files and provision a certificate from
 # Let's Encrypt through certbot.
